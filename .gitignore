@@ -1,0 +1,10 @@
+*.o
+*.a
+*.so
+_obj
+_test
+/.idea
+/.vscode
+/output
+/log
+/logs/
