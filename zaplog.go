@@ -107,73 +107,73 @@ func (l *ZapLogger) SetLogLevel(level Level) {
 }
 
 func (l *ZapLogger) Debug(args ...interface{}) {
-	l.logger.Debug(args)
+	l.logger.Debug(args...)
 }
 
 func (l *ZapLogger) Debugf(template string, args ...interface{}) {
-	l.logger.Debugf(template, args)
+	l.logger.Debugf(template, args...)
 }
 
 func (l *ZapLogger) CtxDebugf(ctx context.Context, template string, args ...interface{}) {
-	l.logger.Debugf(template, args)
+	l.logger.Debugf(template, args...)
 }
 
 func (l *ZapLogger) Info(args ...interface{}) {
-	l.logger.Info(args)
+	l.logger.Info(args...)
 }
 
 func (l *ZapLogger) Infof(template string, args ...interface{}) {
-	l.logger.Infof(template, args)
+	l.logger.Infof(template, args...)
 }
 
 func (l *ZapLogger) CtxInfof(ctx context.Context, template string, args ...interface{}) {
-	l.logger.Infof(template, args)
+	l.logger.Infof(template, args...)
 }
 
 func (l *ZapLogger) Warn(args ...interface{}) {
-	l.logger.Warn(args)
+	l.logger.Warn(args...)
 }
 
 func (l *ZapLogger) Warnf(template string, args ...interface{}) {
-	l.logger.Warnf(template, args)
+	l.logger.Warnf(template, args...)
 }
 
 func (l *ZapLogger) CtxWarnf(ctx context.Context, template string, args ...interface{}) {
-	l.logger.Warnf(template, args)
+	l.logger.Warnf(template, args...)
 }
 
 func (l *ZapLogger) Error(args ...interface{}) {
-	l.logger.Error(args)
+	l.logger.Error(args...)
 }
 
 func (l *ZapLogger) Errorf(template string, args ...interface{}) {
-	l.logger.Errorf(template, args)
+	l.logger.Errorf(template, args...)
 }
 
 func (l *ZapLogger) CtxErrorf(ctx context.Context, template string, args ...interface{}) {
-	l.logger.Errorf(template, args)
+	l.logger.Errorf(template, args...)
 }
 
 func (l *ZapLogger) Panic(args ...interface{}) {
-	l.logger.Panic(args)
+	l.logger.Panic(args...)
 }
 
 func (l *ZapLogger) Panicf(template string, args ...interface{}) {
-	l.logger.Panicf(template, args)
+	l.logger.Panicf(template, args...)
 }
 
 func (l *ZapLogger) CtxPanicf(ctx context.Context, template string, args ...interface{}) {
-	l.logger.Panicf(template, args)
+	l.logger.Panicf(template, args...)
 }
 
 func (l *ZapLogger) Fatal(args ...interface{}) {
-	l.logger.Fatal(args)
+	l.logger.Fatal(args...)
 }
 
 func (l *ZapLogger) Fatalf(template string, args ...interface{}) {
-	l.logger.Fatalf(template, args)
+	l.logger.Fatalf(template, args...)
 }
 
 func (l *ZapLogger) CtxFatalf(ctx context.Context, template string, args ...interface{}) {
-	l.logger.Fatalf(template, args)
+	l.logger.Fatalf(template, args...)
 }
